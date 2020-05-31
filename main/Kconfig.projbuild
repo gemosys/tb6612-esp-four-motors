@@ -1,0 +1,24 @@
+# put here your custom config value
+menu "4 Motor Configuration"
+config MOTOR0_A
+    int "Motor0_A GPIO Pin"
+    default 17
+    help
+    PWM A_Pin for the first pair of motors
+config MOTOR0_B
+    int "Motor0_B GPIO Pin"
+    default 16
+    help
+    PWM B_Pin for the first pair of motors
+config MOTOR1_A
+    int "Motor1_A GPIO Pin"
+    default 32
+    help
+    PWM A_Pin for the second pair of motors
+config MOTOR1_B
+     int "Motor1_B GPIO Pin"
+    default 33
+    help
+    PWM B_Pin for the second pair of motors
+
+endmenu
